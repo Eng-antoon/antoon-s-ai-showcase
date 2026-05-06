@@ -5,7 +5,7 @@ export const experience = [
     period: "Dec 2024 — Present",
     location: "Cairo, Egypt",
     summary:
-      "Lead AI-driven logistics products end-to-end: specs, API contracts, JIRA, QA, and rapid MVPs with Cursor, Claude Code & Lovable. Host autonomous agents on VPS to manage Jira and track GitHub commits.",
+      "Lead AI-driven logistics and operations products end-to-end: specs, API contracts, JIRA, QA, rapid MVPs, and autonomous agents that monitor delivery work.",
   },
   {
     role: "AI Product Manager (Part-time)",
@@ -21,7 +21,7 @@ export const experience = [
     period: "Apr 2024 — Dec 2024",
     location: "Cairo, Egypt",
     summary:
-      "Owned QA for a product-based company, automated test cases, and produced defect-analysis reports that informed roadmap decisions.",
+      "Owned QA for product teams, automated test cases, and produced defect-analysis reports that informed roadmap decisions.",
   },
   {
     role: "Software Tester",

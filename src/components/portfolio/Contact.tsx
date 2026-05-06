@@ -1,9 +1,17 @@
 import { motion } from "framer-motion";
 
 const links = [
-  { label: "Email", href: "mailto:antoonkamel20000@outlook.com", value: "antoonkamel20000@outlook.com" },
+  {
+    label: "Email",
+    href: "mailto:antoonkamel20000@outlook.com",
+    value: "antoonkamel20000@outlook.com",
+  },
   { label: "Phone", href: "tel:+201201048402", value: "+20 120 104 8402" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/antoon-kamel/", value: "linkedin.com/in/antoon-kamel" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/antoon-kamel-swengineeer/",
+    value: "linkedin.com/in/antoon-kamel-swengineeer",
+  },
   { label: "GitHub", href: "https://github.com/", value: "github.com/antoonkamel" },
 ];
 
@@ -22,7 +30,8 @@ export function Contact() {
           Have a product that <span className="text-gradient">should already exist</span>?
         </h2>
         <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-          I'm always open to bold AI product roles, advisory engagements, and short-cycle MVP collaborations.
+          I'm always open to bold AI product roles, advisory engagements, and short-cycle MVP
+          collaborations.
         </p>
       </motion.div>
 

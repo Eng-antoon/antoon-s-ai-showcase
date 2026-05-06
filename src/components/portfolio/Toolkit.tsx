@@ -90,7 +90,12 @@ export function Toolkit() {
                 </li>
               ))}
             </ul>
-            <div className="absolute inset-0 -z-10 rounded-2xl opacity-0 blur-2xl transition group-hover:opacity-30" style={{ background: "radial-gradient(circle at 50% 0%, var(--cyan), transparent 70%)" }} />
+            <div
+              className="absolute inset-0 -z-10 rounded-2xl opacity-0 blur-2xl transition group-hover:opacity-30"
+              style={{
+                background: "radial-gradient(circle at 50% 0%, var(--cyan), transparent 70%)",
+              }}
+            />
           </motion.div>
         ))}
       </div>

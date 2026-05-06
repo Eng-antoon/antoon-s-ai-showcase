@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   { label: "Years in product & engineering", value: 4, suffix: "+" },
-  { label: "AI products shipped", value: 9 },
+  { label: "Products shipped", value: 10 },
   { label: "Autonomous agents deployed", value: 6 },
   { label: "Languages spoken", value: 3 },
 ];
@@ -48,7 +48,7 @@ export function About() {
         >
           <p className="mb-4 text-xs uppercase tracking-[0.3em] text-primary">About</p>
           <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
-            I build AI products that move physical things.
+            I build software for messy operational workflows.
           </h2>
         </motion.div>
 
@@ -60,10 +60,16 @@ export function About() {
           className="md:col-span-7"
         >
           <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
-            I'm a results-driven Technical Product Manager who lives at the seam between business and engineering. I translate ambiguous goals into specs, JIRA tickets, and APIs — then I vibe-code the MVP myself with Cursor, Claude Code and Lovable to validate it before a single sprint is committed.
+            I'm a results-driven Technical Product Manager who translates ambiguous business
+            problems into specs, JIRA tickets, API contracts, and working MVPs. I use Cursor, Claude
+            Code, Lovable, and AI agents to validate ideas quickly before teams commit full sprint
+            capacity.
           </p>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Today I lead AI-driven logistics products at ILLA Trucking and consult part-time at Navona.AI on cart-abandonment growth. I've shipped marketplaces, ops dashboards, last-mile PWAs, finance reconciliation engines, and autonomous AI agents that run 24/7 on a Hostinger VPS.
+            Today I lead AI-driven logistics and operations products while consulting on growth
+            automation. I've shipped marketplaces, ops dashboards, last-mile PWAs, finance
+            reconciliation engines, workforce tools, field sales systems, and autonomous AI agents
+            that run 24/7 on a VPS.
           </p>
         </motion.div>
       </div>

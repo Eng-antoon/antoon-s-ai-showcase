@@ -16,13 +16,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Antoon Kamel Ibrahim — AI Technical Product Manager building logistics, finance and consumer AI products in Cairo and remote.",
+          "Portfolio of Antoon Kamel Ibrahim — AI Technical Product Manager building logistics, finance, sales, workforce and consumer AI products in Cairo and remote.",
       },
       { property: "og:title", content: "Antoon Kamel — AI Technical Product Manager" },
       {
         property: "og:description",
         content:
-          "Nine shipped AI products. Logistics, marketplaces, autonomous agents, ops dashboards. An interactive scroll-driven portfolio.",
+          "Ten shipped products across logistics, marketplaces, finance, sales, workforce operations, AI agents and consumer AI.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

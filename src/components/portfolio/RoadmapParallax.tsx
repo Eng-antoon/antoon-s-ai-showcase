@@ -28,8 +28,8 @@ export function RoadmapParallax() {
           transition={{ duration: 0.9, delay: 0.1 }}
           className="max-w-4xl text-4xl font-semibold tracking-tight md:text-6xl"
         >
-          Nine products. One throughline:{" "}
-          <span className="text-gradient">turn business chaos into shipped AI software.</span>
+          Ten products. One throughline:{" "}
+          <span className="text-gradient">turn operational friction into measurable software.</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -38,7 +38,7 @@ export function RoadmapParallax() {
           transition={{ duration: 0.9, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg text-muted-foreground"
         >
-          Scroll through each station of the journey — context, role, stack, and the outcomes that matter.
+          Scroll one product at a time through the need, product decision, role, stack, and impact.
         </motion.p>
       </div>
 
@@ -51,9 +51,11 @@ export function RoadmapParallax() {
         />
       </div>
 
-      {projects.map((p, i) => (
-        <ProjectLayer key={p.id} project={p} even={i % 2 === 0} />
-      ))}
+      <div className="relative">
+        {projects.map((p, i) => (
+          <ProjectLayer key={p.id} project={p} even={i % 2 === 0} />
+        ))}
+      </div>
     </section>
   );
 }

@@ -1,0 +1,644 @@
+## 1. The Core Concept
+
+The meeting defined the operational workflow as a journey that transforms a **Client Demand** into a final **Cost**.
+
+- **The Starting Point:** Any operation begins with **Demand**.
+- **The End Point:** The journey ends when the activity generates a **Cost**.
+- **The Philosophy:** The workflow is split into two main "Arms" that the Finance team uses to achieve control:
+    1. **The Resource Arm (Data):** Managed by the **Demand (Planning)** team. They deal with quantities, spaces, and utilization.
+    2. **The Cost Arm (Value):** Managed by the **Purchasing** team. They translate those resources into financial value.
+
+## 2. The Step-by-Step Workflow
+
+### Step 1: Client Request & Analysis (Commercial/Demand)
+
+- The cycle begins when a **Client** approaches the company with a request.
+- The team studies the client's requirements to determine what **Services** need to be provided.
+- **Historical Analysis:** The team looks at historical transactions and previous services to understand the necessary **Resources** required to meet the client's "Fulfillment Rate" as agreed in the contract.
+
+### Step 2: Demand Planning (The "Brain")
+
+- **Role:** The Demand team (referred to as **Planning** or by the persona **"Watany"**) acts as the organizer of the request.
+- **Function:**
+    - They determine the **Volume** of work.
+    - They define the **Spaces** (Storage area) needed.
+    - They define the **Quantities** and **Utilization**.
+- **Interaction:** They tell the Operations team, "You have X amount of storage space available based on the volume of cartons."
+
+### Step 3: Operations (The "Executor of Work")
+
+- **Role:** They are the **"Execution Arm"**.
+- **Function:** They request the specific resources needed to execute the work physically.
+- **Interaction with Demand:** Operations might request specific resources (e.g., more space or equipment). The Demand team negotiates this by reviewing actuals vs. forecasts to validate if the request is necessary.
+
+### Step 4: Purchasing (The "Executor of Cost")
+
+- **Role:** They are the **"Cost Arm"**.
+- **Function:** They take the resource requirements defined by Demand/Operations and translate them into a monetary cost.
+- **Workflow:**
+    - They receive the requirement (e.g., a specific material or equipment).
+    - They source options (Material A vs. Material B).
+    - They obtain usually **3 Price Lists** to select the best option.
+    - They provide the "Value of the Cost."
+
+### Step 5: Finance (The "Control")
+
+- **Role:** They oversee the entire process to ensure efficiency.
+- **Function:** They use the data from the two arms (Resources from Demand + Cost from Purchasing) to exert control.
+- **Control Mechanism:** They challenge Purchasing on prices and challenge Operations on the quality/necessity of the requested resources.
+
+---
+
+## 3. Real-World Examples Mentioned
+
+Adel Tarek provided specific examples during the meeting to illustrate how these departments interact and resolve conflicts regarding Cost vs. Quality.
+
+### Example A: The "Stretch Roll" (Quality vs. Cost)
+
+- **The Request:** The Operations team requests a specific quality of **Stretch Roll** (packaging material).
+- **The Conflict:**
+    - **Finance/Purchasing** might suggest a cheaper option to save money.
+    - **Operations** argues: "I operate in a specific way. If I use the cheaper roll with lower thickness, it will tear, waste material, and result in higher consumption. Therefore, the standard I need is X."
+- **The Resolution:**
+    - Purchasing presents options (e.g., Material A vs. Material B).
+    - Operations selects the material that fits the operational standard (even if not the cheapest).
+    - Purchasing then takes that selected item and sprints to find the best **Price List** (lowest price for that specific quality).
+
+### Example B: The "Samsung TV" (Policy vs. Preference)
+
+- **The Request:** Operations requests a **Samsung TV** for a meeting room.
+- **The Conflict:** Finance/Purchasing challenges the brand preference.
+- **The Argument:**
+    - **Finance:** "Why Samsung? It has a higher depreciation/cost. Our company policy is to buy assets that last for a specific duration (e.g., 3 years). We don't need a premium brand if a cheaper alternative lasts the required 3 years."
+    - **Result:** The decision is based on the company's asset policy and lifecycle, not just personal preference, ensuring the purchase aligns with the planned usage duration.
+
+---
+
+## 4. The "Carton" Cost Composition
+
+Adel summarized the costing logic by describing the **"Carton"** as having two distinct parts that must be integrated:
+
+1. **Value of Cost:** Handled by Purchasing/Finance (How much money does it cost?).
+2. **Resources/Utilization:** Handled by Demand/Operations (How much space/effort does it use?).
+
+**Conclusion of the Cycle:**
+
+The Demand team looks at the **Historical Data**, the Purchasing team executes the **Buying**, and the Finance team controls the **Spending**, ensuring that the resources requested by Operations match the actual Need (Demand) and are bought at the best Price (Purchasing).
+
+# Departmental Roles & Responsibilities
+
+## 1. Demand / Planning Team (The "Brain")
+
+- **Key Personnel Mentioned:** "Watany" (referred to as the person leading this function).
+- **Definition:** The meeting explicitly defined this team as **"The Brain of the Operations."** They are the organizers of the entire request cycle.
+- **Core Responsibilities:**
+    - **The Starting Point:** They initiate the operational cycle by defining requirements based on **Historical Data** (Actuals) and **New Inputs** (Forecasting/Commercial contracts).
+    - **Warehouse Mapping:** They are responsible for "drawing" the warehouse layout. This involves:
+        - Defining total storage capacity (e.g., "This warehouse holds X number of pallets").
+        - Designating specific areas: Forklift paths, administrative offices, battery charging stations, and fire safety zones.
+    - **Defining Metrics:**
+        - **Turnover:** They set the stock rotation speed (e.g., restocking every 5 days).
+        - **Throughput:** They calculate the volume of goods moving in and out to determine dock utilization.
+    - **Resource Management:** They manage the "Utilization" of resources.
+- **Interaction:** They act as the validator between Operations and Reality.
+    - *Example:* If Operations claims they are at "Full Capacity," the Planning team reviews the volume of cartons vs. the drawn map to validate if the space is truly full or if there is unutilized space available.
+
+## 2. Operations Team (The "Executor of Work")
+
+- **Definition:** They are the **"Execution Arm"** for physical tasks. Adel described their nature as "Running around" (*El-dookha garya* - meaning constant physical movement and execution).
+- **Core Responsibilities:**
+    - **Execution:** They perform the daily physical handling of goods (Receiving, Inventory, Picking, Loading).
+    - **Resource Requesting:** They request specific resources needed to do the job based on operational standards.
+    - **Quality Standards:** They define the technical specifications required for materials.
+- **Key Example (Stretch Roll):**
+    - Operations specifies the quality of the **Stretch Roll** (packaging material).
+    - They justify the need for a specific thickness because a cheaper/thinner roll would tear during their specific operational process, causing waste. Thus, they dictate the standard required, even if it is not the cheapest option.
+
+## 3. Purchasing / Procurement Team (The "Executor of Cost")
+
+- **Definition:** They are the **"Cost Arm."** They are Executors like Operations, but focused on the financial/cost side.
+- **Core Responsibilities:**
+    - **Sourcing:** They find the resources requested by Demand/Operations.
+    - **Cost Translation:** They translate the physical resource requirements into financial value (Money).
+    - **Price Lists:** They typically obtain 3 different price lists/quotations for any requested item to find the best option.
+    - **Contract Management:** They hold the supplier contracts and provide the cost data inputs for the system.
+- **Note on Structure:** It was mentioned that a **Consultant** will be coming specifically to build the structure, documentation, and inter-departmental workflows for the Purchasing team.
+
+## 4. Finance Team (The "Control")
+
+- **Definition:** They are the **"Controller"** of the entire process.
+- **Core Responsibilities:**
+    - **Control Mechanism:** They use the data provided by the two arms (Demand’s Resources + Purchasing’s Costs) to exercise control over the business.
+    - **Challenging Costs:** They challenge the Purchasing team to get better prices ("This price doesn't please me, there is better in the market").
+    - **Challenging Needs:** They challenge the Operations team on the necessity or brand of requested assets.
+- **Key Example (Samsung TV):**
+    - If Operations requests a **Samsung TV** for a meeting room, Finance challenges this choice based on **Company Policy** and **Depreciation**.
+    - *Reasoning:* If the asset (TV) has a lifecycle of 3 years, Finance argues there is no need to buy a premium brand (Samsung) if a cheaper brand can also last the required 3 years. The decision is based on policy, not personal preference.
+
+## 5. HR Team (Human Resources)
+
+- **Definition:** The provider of Human Capital.
+- **Core Responsibilities:**
+    - **Manpower Planning:** They receive the requirement from the Demand team (e.g., "I need X number of people").
+    - **Costing:** They provide the cost associated with the required headcount.
+- **Workflow:** The Demand team notifies HR of the required number of workers, and HR fulfills this request.
+- **System Integration:** It was discussed that the Costing System will need to integrate with the HR system (or module) to pull worker cost data.
+
+## 6. Commercial Team (Revenue)
+
+- **Key Personnel Mentioned:** **Ahmed Kamal** and **Ahmed Youssef**.
+- **Definition:** The team responsible for bringing in business and generating revenue.
+- **Core Responsibilities:**
+    - **Volume Generation:** They bring in new clients and contracts, which increases the "Volume" of cartons in the warehouse.
+    - **Contract Management:** They manage client contracts (renewals, new business).
+    - **Providing System Inputs:**
+        - **Projected Volumes:** How many cartons/pallets are coming in.
+        - **Revenue per Carton:** The selling price agreed upon with the client.
+        - **Contract Terms:** Turnover rates and storage fees agreed with the client.
+
+---
+
+**Summary of Interaction:**
+
+The meeting established that these 6 teams function as a single ecosystem where **Commercial** brings the volume, **Demand** plans the space and resources, **Operations** executes the movement, **HR** provides the labor, **Purchasing** buys the materials, and **Finance** controls the cost and profitability.
+
+# The Role of Demand/Planning ("Watany")
+
+## 1. Identity & Core Definition
+
+- **The Persona:** The meeting explicitly identified **"Watany"** as the lead figure representing the **Demand and Planning** function.
+- **The Metaphor:** Adel Tarek defined this role as **"The Brain of the Operations"** (*El-Brain*).
+- **Primary Function:** While Operations executes the physical work on the ground ("The Land"), Planning acts as the strategic mind that organizes the request, defines the layout, and validates the efficiency of the space usage.
+
+## 2. Warehouse Mapping ("The Drawing")
+
+Adel Tarek explained that the Planning team is responsible for literally "Drawing" the warehouse layout to convert raw space into usable operational data. This process involves the following detailed breakdowns mentioned in the meeting:
+
+### A. Converting Contracts to Usable Space
+
+- The Purchasing team provides the raw contract for the warehouse (e.g., "We have a warehouse of X total area").
+- **Watany’s Role:** He translates this total area into **"Usable Spaces"** that the operation can actually use. He determines the **"Full Capacity"** of the warehouse.
+
+### B. The Physical Layout Elements
+
+Adel specified that Watany draws the map to define exactly where everything goes. The system input must reflect these specific elements mentioned:
+
+1. **Storage Capacity:** Defining exactly how many pallets or cartons the warehouse can hold (e.g., "This specific bay holds 4 pallets").
+2. **Forklift Paths:** Defining the aisles and lanes where forklifts drive (non-storage space).
+3. **Administrative Offices:** Areas designated for management/admin staff.
+4. **Equipment Garages:** Specific areas designated for **Battery Charging** and parking for Forklifts.
+5. **Safety Zones:** Locations for **Fire Extinguishers** and safety equipment.
+
+*The goal of this mapping is to determine the "Effective Capacity" vs. the "Total Area."*
+
+## 3. Capacity Planning Factors (The Two Key Metrics)
+
+Adel emphasized that Capacity is not just about physical space; it is dynamic based on two specific factors that Planning must input into the system:
+
+### Factor 1: Turnover (Stock Rotation)
+
+- **Definition:** The speed at which stock enters and leaves the warehouse.
+- **The Concept:** Adel explained that high turnover changes the nature of storage.
+- **The Example:**
+    - If the agreement with the client is a **5-Day Turnover**: The operation is constantly taking a carton out and putting a new one "right behind it" immediately.
+    - **Impact:** In this scenario, the warehouse doesn't have "stagnant storage" (goods sitting for long periods). Instead, it has "Flow."
+    - **Result:** A warehouse with high turnover can handle **much larger volumes** than its physical static capacity suggests, because goods are not sitting idle ("Raqda").
+
+### Factor 2: Throughput (Movement Volume)
+
+- **Definition:** The volume of goods moving in and out.
+- **Impact:** This metric is used to calculate **Dock Utilization**.
+- **Planning’s Output:** Watany must calculate how many **Docks** (Loading/Unloading bays) are needed to handle the volume based on the Throughput rate.
+
+## 4. Validation & Operational Control
+
+The Planning team uses the "Map" and "Capacity Plan" to challenge the Operations team and ensure efficiency.
+
+- **The Conflict Scenario:**
+    - **Operations claims:** "The warehouse is full. We cannot take more."
+    - **Planning (Watany) challenges:** He looks at the "Map" and the "Actuals" (current inventory levels).
+    - **The Argument:** "Based on my plan, I have **X number of 'Logo' cartons** in the system. Therefore, the space occupied should be **Y**. Why is the physical space full when the data says we have free space?"
+- **Resolution:** This back-and-forth ensures that the warehouse is utilized to its true potential and prevents Operations from inefficiently spreading out goods ("burning space").
+
+## 5. System Integration (Inputs & Outputs)
+
+- **Input to System:**
+    - The "Drawing" (Map) of the warehouse.
+    - The "Full Capacity" limit (in cartons/pallets).
+    - The planned Turnover rate (e.g., 5 days, 10 days).
+- **Output from System (Calculated Views):**
+    - **Unutilized Space Cost:** The system will use Watany’s map to tell Finance: "We are paying rent for X area, but Planning says Y area is empty." This calculates the financial loss of empty space.
+
+---
+
+**Summary:**
+
+The meeting concluded that "Watany" (Planning) is the source of truth for the warehouse's physical capabilities. He defines what "Full" means, draws the lines between storage and aisles, and dictates the operational pace (Turnover) that Operations must execute.
+
+# System Inputs
+
+Adel Tarek established that for the Costing Module to function, it requires specific inputs from five distinct departments. These inputs allow the system to calculate the "Value of Cost" versus the "Utilization of Resources."
+
+## 1. Inputs from Demand / Planning ("The Brain")
+
+The Demand team is responsible for inputting the **Physical & Operational Logic** of the warehouse.
+
+- **Warehouse "Drawing" (The Map):**
+    - **Description:** The system must accept a detailed "Map" or layout of the warehouse facilities.
+    - **Specific Elements:** This input is not just a total area number; it is a breakdown of the space into usable categories:
+        - **Storage Capacity:** The specific number of **Pallets** or **Cartons** each bay/zone can hold (e.g., "This rack holds 4 pallets").
+        - **Forklift Paths:** The aisles and lanes used for movement (non-storage space).
+        - **Administrative Areas:** Space deducted for offices.
+        - **Service Areas:** Inputs for **Battery Charging Stations** (for forklifts) and **Forklift Garages**.
+        - **Safety Zones:** Areas designated for **Fire Extinguishers** and safety equipment.
+- **Operational Metrics:**
+    - **Turnover Rate:** The planned stock rotation speed (e.g., inputting "5 days" or "10 days" turnover).
+    - **Throughput:** The volume of goods moving In and Out (used to calculate Dock requirements).
+- **Capacity Plan:** The "Full Capacity" limit of the warehouse based on the drawing.
+
+## 2. Inputs from Purchasing ("The Executor of Cost")
+
+The Purchasing team provides the **Financial Value** associated with the resources defined by Demand.
+
+- **Warehouse Contracts:**
+    - **Input:** The raw **Rent Cost** and the **Total Area** defined in the lease agreement.
+- **Resource Costs:**
+    - **Input:** The cost of materials and equipment requested by Operations.
+    - **Price Lists:** Inputting the selected price list for consumables (e.g., the specific cost of the **Stretch Roll** selected based on quality standards).
+- **Fixed Assets:**
+    - **Input:** Costs related to **Racks** and **Forklifts**.
+    - **Depreciation Logic:** While not explicitly detailed as a raw input field, the discussion about the **"Samsung TV"** example implies the system (or Finance using the system) must account for asset value and lifecycle (e.g., a 3-year lifecycle for assets).
+
+## 3. Inputs from HR (Human Resources)
+
+The HR team provides the **Human Capital Data**.
+
+- **Manpower Plan:**
+    - **Input:** The budgeted cost for the workforce.
+- **Headcount:**
+    - **Input:** The actual number of staff available or required.
+    - **Integration Note:** Antoon and Adel discussed that this data might come from integrating a separate **HR Module/System**. The Demand team sends a requirement ("I need X people"), and HR inputs the fulfillment of that request.
+
+## 4. Inputs from Commercial
+
+The Commercial team (led by Ahmed Kamal & Ahmed Youssef) provides the **Revenue & Volume Data**.
+
+- **Projected Volumes:**
+    - **Input:** The number of cartons/pallets expected from new and existing clients.
+- **Revenue Data:**
+    - **Input:** The **Selling Price per Carton** (Revenue per unit).
+    - **Contract Terms:** Specific terms agreed with clients regarding storage fees and turnover rates.
+
+## 5. Inputs from Operations (via Infor WMS Integration)
+
+The Operations team provides the **Actuals** via the existing "Infor" system.
+
+- **Transaction History:**
+    - **Input:** The movement logs of every carton.
+    - **Specific Flows Mentioned:**
+        - **Inbound:** Movement from Truck → Dock.
+        - **Put-away:** Movement from Dock → Storage Location (e.g., D0).
+        - **Internal Moves:** Movement by Forklift or Hand.
+        - **Outbound:** Movement from Storage → Portable Staging Area → Dock → Truck.
+- **Current Stock Levels:**
+    - **Input:** The real-time "On-Hand" inventory quantity.
+
+---
+
+## 6. Summary of the Input Logic
+
+Adel Tarek summarized the interaction of these inputs as follows:
+
+- **Purchasing** inputs the **Contract Area** and **Rent Cost**.
+- **Demand** translates that Area into **Usable Spaces** (The Map).
+- **Commercial** inputs the **Volume** and **Price**.
+- **Operations** (via WMS) inputs the **Actual Moves**.
+- **HR** inputs the **Labor Count**.
+
+**The Goal:** The system takes these inputs to calculate **"How much of the Carton's cost is driven by Storage vs. Resources vs. Labor?"**
+
+# System Outputs & Views
+
+Adel Tarek defined the "Outputs" not just as reports, but as **"Views"** that allow management to see where money is being wasted (Unutilized Cost) and where operational inefficiency exists (Labor Performance).
+
+## 1. Output: Unutilized Space Cost (Financial View)
+
+The system must translate physical empty space into financial loss.
+
+- **The Logic:**
+    - **Purchasing Input:** Enters the total cost of the warehouse (Rent/Lease amount).
+    - **Planning Input ("Watany"):** Draws the warehouse map and defines the "Usable Space" (Capacity).
+    - **Operations Actuals:** The system tracks how much space is currently occupied.
+- **The Calculated View:**
+    - The system compares the **"Total Paid Capacity"** vs. **"Actual Occupied Space."**
+    - **The Output:** It generates a specific metric called **"Unutilized Cost."**
+    - *Adel’s Explanation:* It is not enough to say "We have 10 empty pallet positions." The system must say "We are losing **X amount of money** because these positions are empty." This allows Finance to see the cost of inefficiency.
+
+## 2. Output: Cost Per Carton (Unit Level View)
+
+The system must drill down the total cost to the single unit level.
+
+- **The Logic:**
+    - The system aggregates all costs: **Fixed Costs** (Rent), **Shared Costs** (Utilities/Overheads), and **Resource Costs** (Equipment/Labor).
+    - It combines this with **Commercial Inputs** (Volume) and **Demand Inputs** (Turnover/Throughput).
+- **The Calculated View:**
+    - **Share of Cost:** The system calculates exactly how much a single carton "consumes" of the warehouse cost.
+    - *Adel’s Description:* "If I bring the carton in at cost X, how much is its share of the storage cost, based on the elements put in by Purchasing and Demand?"
+
+## 3. Output: Labor Efficiency & Performance (The "Granular" View)
+
+Adel Tarek explained that the current system (Infor) only provides bulk data (total moves per day), which hides inefficiency. He described a **Proposed Output Model** (based on his previous experience) that the new system should aim to replicate.
+
+**The Goal:** To answer "Who moved what, and how long did it take?"
+
+The system needs to generate specific views for each operational function:
+
+### A. Receiving Performance View
+
+- **Data Point:** The moment the truck is unloaded and goods are scanned into the system.
+- **The View:**
+    - **Who:** The specific employee (Username).
+    - **What:** The quantity of goods received.
+    - **Time:** How long it took to enter these goods into the system.
+    - *Indicator:* This is the first indicator of speed at the dock.
+
+### B. Inventory (Put-Away) Performance View
+
+- **Data Point:** The movement of goods from the Receiving Dock to the Shelf.
+- **The View:**
+    - **Time Tracking:** The time elapsed between the Receiving Team handing over the goods and the Inventory Team placing them on the shelf ("Approved on System").
+    - *Indicator:* Measures how fast goods become available for sale/picking.
+
+### C. Preparation (Picking) Performance View
+
+- **Data Point:** When an order is released for preparation.
+- **The View:**
+    - **Workflow Tracking:** Tracking the **Trolley Man** (who transports goods between zones) and the **Picking Team**.
+    - **Time:** The time taken to pick the specific items for a client order.
+    - **Location:** The system tracks that the goods were delivered to a specific staging area.
+
+### D. Packing/Loading Performance View
+
+- **Data Point:** Finalizing the order for the client.
+- **The View:**
+    - **Time per Client:** How long it took to pack and load the order for a specific client.
+
+### E. Comparative Labor Analysis (The "20 vs. 5" Example)
+
+Adel emphasized that these detailed views allow for comparative analysis:
+
+- **The Scenario:** If the standard is moving 20 cartons, but the system shows **Employee A moved 20** while **Employee B moved 5**.
+- **The Output:** The system highlights this discrepancy.
+- **The Action:** Management can investigate the cause. Is Employee B lazy? Is there a management issue? Is there a skill gap?
+- *Adel’s Quote:* "Why is there one person carrying 20 and always able to carry 20, while another carries 5? We need to ask the reason why."
+
+## 4. Output: Throughput & Turnover Views
+
+- **Turnover View:**
+    - The system should show the actual stock rotation speed (e.g., "Actual Turnover is 4.5 days" vs. "Planned 5 days").
+    - This confirms if the warehouse is operating with "Flow" or if stock is becoming stagnant ("Raqda").
+- **Throughput View:**
+    - The system calculates the volume of **Inbound + Outbound** movements.
+    - **Dock Utilization:** It translates this volume to determine if the number of Docks utilized is sufficient or efficient.
+
+---
+
+**Summary:**
+
+The system outputs are designed to provide **Financial Control** (Space Cost, Unit Cost) and **Operational Visibility** (Labor speed, Individual Performance, Stock Turnover). This moves the company from simply tracking "Where is the carton?" to understanding "How much did it cost to move this carton, and was it moved efficiently?"
+
+# Current Technical Limitations (The "Infor WMS" Bulk Data Issue)
+
+During the meeting, **Antoon** highlighted significant data gaps in the current tracking system ("Infor") that prevent the accurate calculation of operational costs and resource utilization. The limitations are detailed below:
+
+## 1. The Lack of Resource Differentiation (Method of Transport)
+
+- **The Issue:** The current system (Infor) tracks the *movement* of goods but ignores the *method* of movement.
+- **Specific Limitation:** Antoon explained that "Infor does not differentiate between a carton moved by a **Forklift** or transferred by a **Worker (On-hand)**."
+- **Impact on Costing:**
+    - A Forklift has a different cost structure (Fuel/Electricity, Maintenance, Depreciation, Driver salary) compared to a Manual Worker (Labor wage).
+    - Without distinguishing *how* a carton was moved, the system cannot assign the correct "Resource Cost" to the activity. It simply records that "Item X moved from Location A to Location B."
+
+## 2. The "Bulk" Data Entry Problem (The Timestamp Issue)
+
+- **The Issue:** The timing of data entry does not match the timing of physical execution.
+- **Antoon’s Description:** "I come at the end of the day and find **a million transactions all at the same time**."
+- **The Reality:** instead of scanning movements in real-time (as they happen), the Operations team often performs the physical work throughout the day but uploads or enters the transaction data into Infor in "Bulk" batches at the end of the shift.
+- **Impact on Analytics:**
+    - **No Timeline:** It is impossible to create a realistic "Timeline of the Day." The data makes it look like 1,000 cartons moved instantly at 5:00 PM, rather than flowing steadily from 8:00 AM to 5:00 PM.
+    - **No Utilization Tracking:** Because the start-time and end-time of tasks are not recorded accurately, the system cannot calculate **Utilization** (e.g., "How long was the Forklift actually running?" or "How many hours was the Worker active?").
+
+## 3. The Infor Workflow Gaps (System Logic vs. Reality)
+
+Antoon described the specific cycle of movement recorded in Infor and how it lacks the necessary granularity for the new Costing Module:
+
+- **Step 1 (Inbound):** The system records goods entering the **Dock**.
+- **Step 2 (Storage):** The system records the move from the Dock to a specific storage location code (specifically mentioned as **"D0"**).
+- **Step 3 (Outbound Staging):** The system records movement from "D0" to a **"Portable"** staging area (where orders are gathered).
+- **Step 4 (Loading):** The system records movement from the "Portable" area to the **Dock**, then to the **Truck**.
+
+**The Limitation:** While the *location changes* are correct, the system treats all these moves as generic "Transactions." It does not capture the operational effort (Time + Resource Type) required to move between these specific points.
+
+## 4. Conclusion on Data Accuracy
+
+Antoon explicitly stated: **"This work is not done Accurately."**
+
+- The system currently tracks **"Where"** the carton is.
+- The system *fails* to track **"Who"** moved it, **"With What"** tool, and **"When"** exactly it happened.
+
+**Why this matters for the new Project:**
+
+To build the **Costing Module** discussed by Adel (which relies on calculating the cost of Resources and Labor Efficiency), relying solely on the current Infor data is insufficient. The data is aggregated and "Bulk," whereas the new module requires granular, time-stamped, resource-specific data.
+
+# Proposed Labor Efficiency Model (Granular Tracking)
+
+Adel Tarek outlined a granular tracking model designed to break down the "Bulk" operational data into specific, measurable functions. The goal of this model is to move away from generic "movement" tracking to specific **Performance Tracking** (Who, What, How Long).
+
+## 1. The Core Concept: Functional Segmentation
+
+Instead of treating the warehouse operation as one big block, the proposed model divides the workflow into four distinct teams/stages . Each stage has its own "Start" and "Stop" timer on the system to measure specific efficiency.
+
+### Stage A: The Receiving Team
+
+- **Trigger:** The process begins the moment the **Truck** arrives and unloads the goods.
+- **The Action:** The Receiving Team takes the goods from the truck and enters them into the system.
+- **Data Capture (The "First Indicator"):**
+    - **Username:** The specific employee who performed the task is recorded.
+    - **Quantity:** How much merchandise was entered.
+    - **Time:** Exactly **"In how much time"** did this employee process this specific volume from the truck to the system.
+- **Result:** This provides the first KPI: The speed of dock intake.
+
+### Stage B: The Inventory Team (Put-Away)
+
+- **Trigger:** Once Receiving enters the goods, the system notifies the Inventory Team that **"New Stocks"** are available.
+- **The Handover:** The Inventory Team goes to the dock to receive the physical goods from the Receiving Team.
+- **The Action:**
+    - The employee takes a "Paper" (work order/list).
+    - They move the goods and **"Stack on the Shelf"** (Put-away).
+- **Data Capture:**
+    - **Approval Timestamp:** The moment the employee confirms the goods are on the shelf ("Approved on System").
+    - **Metric:** The system calculates the time elapsed between "Receiving" and "Shelving." This measures how fast goods become available for storage.
+
+### Stage C: The Preparation & Picking Team
+
+- **Trigger:** When client orders are released for preparation.
+- **The "Trolley Man" Role:** Adel introduced a specific role called the **"Trolley Man"** who acts as the transporter in the middle.
+    - **Action:** The Trolley Man takes the goods from the Inventory Team/Location and delivers them to the Preparation Team.
+    - **Location:** He places them in a specific **"Staging Area"** designated for preparation.
+- **Data Capture:** The system tracks the movement from the Shelf to the Preparation Area.
+
+### Stage D: The Packing & Loading Team
+
+- **Trigger:** The goods are now in the Preparation Area.
+- **The Action:** The team **"Packs"** the items and prepares them for specific clients.
+- **Data Capture:**
+    - **Time Per Client:** The system measures how long it took to pack and load the order for **"Client X"**.
+- **Workload Distribution Logic:**
+    - Adel mentioned that the system should be **"Automatic"** in distributing workload.
+    - It should know the **Headcount** (number of people present today) in that specific Area.
+    - It distributes the orders among the available staff to ensure fair workload and accurate tracking.
+
+## 2. The Analytical Output: Comparative Performance
+
+Adel explained that by tracking these four stages granularly, the system can generate a **Comparative Analysis** of the workforce.
+
+### The "20 vs. 5" Example
+
+Adel provided a specific scenario to illustrate the value of this model:
+
+- **Scenario:** You have a standard expectation for how many cartons a worker should move.
+- **The Data Variance:** The system report shows:
+    - **Employee A:** Moves **20 Cartons**.
+    - **Employee B:** Moves **5 Cartons**.
+    - **Employee C:** Moves **3 Cartons**.
+- **The Insight:**
+    - Without this model, you only see the total volume moved by the team.
+    - With this model, you can ask **"Why?"**
+    - *Adel’s Questions:* "Is there one person who *always* carries 20, while another carries 5? Is the person carrying 5 lazy? Is there a skill issue? Or is there a management issue in distributing the work?"
+- **Conclusion:** This level of detail allows management to identify the **"Utilization of the Human"**—identifying who is over-performing and who is under-performing based on actual data, not just total daily volume.
+
+## 3. Implementation Requirement
+
+To achieve this, Adel noted that:
+
+1. The system must recognize **Usernames** (Individual Logins).
+2. The workflow must force a "Handover" on the system between teams (Receiving → Inventory → Preparation).
+3. This moves the data entry from "End of Day Bulk" to "Real-Time Transactional."
+
+# Key Metrics (Turnover, Throughput, and Utilization)
+
+Adel Tarek emphasized that the system must not just track "Counts" (numbers of items), but must track specific **Operational Metrics** that define the health and efficiency of the business. These metrics are the primary tools the **Planning (Demand)** team uses to validate Operations and Cost.
+
+## 1. Turnover (Stock Rotation Speed)
+
+Adel identified Turnover as a critical factor that changes the effective capacity of the warehouse.
+
+- **Definition:** The rate at which stock enters and leaves the warehouse over a specific period.
+- **The Logic:** It is not just about how much space you *have*, but how fast the goods *move*.
+- **The "5-Day" Example:**
+    - Adel gave a specific example where a contract dictates a turnover of **"Every 5 Days."**
+    - **Operational Reality:** In this scenario, the moment a carton leaves the warehouse, another carton enters "right behind it" immediately.
+    - **"Flow" vs. "Stagnant":** Adel explained that high turnover creates a "Flow." The warehouse does not have "Stagnant Storage" (goods sitting idle or "sleeping/Raqda").
+    - **Impact on Capacity:** Because of this flow, a warehouse with high turnover can handle a **much larger volume** of goods than its physical, static capacity would suggest. The system must calculate capacity based on this rotation, not just static floor space.
+- **Source:** This metric is derived from the **Client Contracts** (Commercial Input) and managed by **Demand**.
+
+## 2. Throughput (Volume & Infrastructure Load)
+
+Throughput was defined as the metric that links the "Volume" of goods to the "Infrastructure" (Docks/Doors) of the warehouse.
+
+- **Definition:** The total volume of goods moving **In** (Receiving) and **Out** (Loading) of the warehouse.
+- **The Logic:** "The space itself translates into a number of cartons... saying I will output how much... this is called Throughput."
+- **Infrastructure Connection (The "Dock" Metric):**
+    - Adel explained that Throughput is used to calculate **Dock Utilization**.
+    - **The Question it Answers:** "Based on this volume moving in and out, how many **Docks** (Loading Bays) do I need?" or "Is the current number of Docks sufficient to handle this flow?"
+- **Visualization:** "Watany" (Planning) is responsible for drawing/calculating this to ensure the facility can physically handle the speed of the operation.
+
+## 3. Utilization (Space & Resource Efficiency)
+
+Utilization was discussed in two distinct forms: **Space Utilization** (Financial) and **Human Utilization** (Operational).
+
+### A. Space Utilization & "Unutilized Cost"
+
+- **Definition:** Comparing the Total Paid Capacity against the Actual Occupied Space.
+- **The Financial View:**
+    - The system must generate a metric called **"Unutilized Cost."**
+    - **The Logic:** If the Purchasing team inputs that the warehouse rent is $X (Total Capacity), and Operations is only using 50% of the space, the system must calculate the **Financial Loss** of that empty 50%.
+    - *Adel’s Explanation:* It helps Finance understand "How much money are we losing because this space is sitting empty?"
+- **The "Logo Cartons" Example (Validation):**
+    - This metric is used to resolve conflicts between Planning and Operations.
+    - *Scenario:* Operations claims "The warehouse is full."
+    - *Planning Challenge:* "No, based on the plan and the **'Logo'** cartons count in the system, you should only be occupying space Y. Therefore, your utilization is incorrect, and you have free space."
+
+### B. Human Resource Utilization
+
+- **Definition:** Measuring the efficiency of the workforce based on actual performance data, not just attendance.
+- **The Logic:** Identifying who is overperforming and who is underperforming.
+- **The "20 vs. 5" Example (Performance Metric):**
+    - Adel used this example to define Human Utilization.
+    - *Metric:* If the standard is moving 20 cartons/hour.
+    - *Data:* Employee A moves **20**, Employee B moves **5**.
+    - *Analysis:* The system must highlight this variance so management can ask "Why?" (Is it laziness? Is it a management issue in distributing work? Is it a skill gap?).
+    - **Goal:** To determine the true "Utilization of the Human" resource.
+
+---
+
+**Summary:**
+
+These three metrics interact to form the Operational Picture:
+
+1. **Turnover** determines how fast the warehouse runs (Flow).
+2. **Throughput** determines if the doors/docks can handle the flow.
+3. **Utilization** determines if we are wasting money on empty space or inefficient labor.
+
+# Next Steps & Action Plan
+
+## 1. The Operations Site Visit (The "Control" Visit)
+
+The meeting concluded that a theoretical design of the system is not enough. Because the current data is "Bulk" and inaccurate, Antoon and Adel must physically observe the workflow to validate the proposed "Labor Efficiency Model."
+
+- **The Objective:**
+    - **Antoon’s Goal:** To visualize the "Timeline of the Day." He currently sees "a million transactions" entering the system all at once at the end of the day. He needs to see the actual physical flow (8:00 AM to 5:00 PM) to map it correctly in the new system.
+    - **Adel’s Goal:** **"Control."** Adel explicitly stated: *"To control them, I must understand how they are working."* He needs to witness the "Receiving -> Inventory -> Picking -> Loading" cycle to ensure the new system accurately captures the "Who, What, and How Long."
+- **The Plan:**
+    - **Action:** Antoon and Adel will go to the Operations site together.
+    - **Activity:** They will "attend a day" (*nehdar yom*)—meaning they will sit with the Operations team for a full shift to observe the reality of the work vs. what is recorded in Infor.
+- **Scheduling:**
+    - **Proposal:** Antoon initially suggested "Sunday."
+    - **Conflict:** Adel noted that "Sunday I have meetings."
+    - **Resolution:** They agreed to schedule the visit for **"Mid-week"** next week (the week following the meeting).
+
+## 2. Follow-Up Meeting with "Watany" (Planning/Demand)
+
+Antoon acknowledged that while he understands the *concept* of the "Brain" (Planning), he needs to sit with **Watany** personally to define the technical inputs.
+
+- **The Objective:** To extract the "Warehouse Drawing" logic into system fields.
+- **Key Discussion Points for this meeting:**
+    - **Capacity Inputs:** How exactly does Watany calculate "Full Capacity"?
+    - **Space Mapping:** How to digitize the map (Storage vs. Aisles vs. Offices).
+    - **Throughput & Turnover Logic:** Defining the specific formulas Watany uses for "5-Day Turnover" and Dock Utilization.
+    - **Validation Logic:** Understanding how Watany currently challenges Operations (e.g., the "Logo Cartons" count vs. Physical Space) so this logic can be built into the system's automated validation.
+
+## 3. System Integration Strategy (Infor WMS)
+
+Antoon confirmed the technical direction regarding the current WMS (Infor).
+
+- **The Decision:** They will **not** build a new database for movement.
+- **The Action:** Antoon will **Integrate** with Infor to extract:
+    - The number of cartons moved.
+    - The location changes (Dock → D0 → Outbound).
+- **The Challenge & Solution:**
+    - *Challenge:* Antoon mentioned he cannot force the workers (who might be outsourced or not direct employees) to download a new App immediately.
+    - *Adel’s Rebuttal/Solution:* Adel insisted that despite the difficulty ("Labor is not ours"), the workflow *must* be controlled. The solution is to sit with Operations (The Site Visit) to enforce a workflow where data is entered per stage (Receiving/Inventory/etc.) rather than in bulk, even if it requires a change in management behavior rather than just software.
+
+## 4. Immediate Conclusion
+
+- **Status:** Adel confirmed that regarding the "Costing Module" concept and the "Departmental Roles," the current meeting was successful ("For me, today is perfect").
+- **Documentation:** Antoon confirmed he is using the recording to generate this documentation to ensure no detail regarding the "Costing," "Shared Costs," or "Fixed Costs" is lost.
+
+---
+
+**Summary of Action Plan:**
+
+1. **Next Week (Mid-Week):** Site Visit to Operations by Antoon and Adel to observe the physical workflow and "Control" the process.
+2. **TBD:** Technical deep-dive meeting with **Watany** to define the specific data inputs for Capacity and Mapping.
+3. **Ongoing:** Antoon to proceed with the System Integration plan with Infor WMS based on the "Granular" model discussed.

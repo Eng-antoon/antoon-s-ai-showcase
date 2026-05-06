@@ -13,10 +13,7 @@ export function Hero() {
   return (
     <section ref={ref} className="relative min-h-screen overflow-hidden">
       {/* Background layer */}
-      <motion.div
-        style={{ scale }}
-        className="absolute inset-0 -z-10"
-      >
+      <motion.div style={{ scale }} className="absolute inset-0 -z-10">
         <img src={bg} alt="" className="h-full w-full object-cover opacity-60" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background" />
       </motion.div>
@@ -27,7 +24,10 @@ export function Hero() {
         <div className="absolute right-[15%] bottom-[15%] h-96 w-96 rounded-full bg-accent/20 blur-3xl" />
       </div>
 
-      <motion.div style={{ y, opacity }} className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 md:flex-row md:gap-16">
+      <motion.div
+        style={{ y, opacity }}
+        className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 py-24 md:flex-row md:gap-16"
+      >
         <div className="flex-1">
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -56,7 +56,8 @@ export function Hero() {
             transition={{ duration: 0.9, delay: 0.25 }}
             className="mt-6 max-w-xl text-lg text-muted-foreground md:text-xl"
           >
-            AI Technical Product Manager — translating logistics, finance and consumer ambitions into shipped, measurable AI products. Cairo · Remote.
+            AI Technical Product Manager — translating logistics, finance and consumer ambitions
+            into shipped, measurable AI products. Cairo · Remote.
           </motion.p>
 
           <motion.div

@@ -42,9 +42,7 @@ export function ExperienceTimeline() {
               <div>
                 <h3 className="text-xl font-medium">{e.role}</h3>
                 <p className="mt-1 text-sm text-muted-foreground">{e.company}</p>
-                <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                  {e.summary}
-                </p>
+                <p className="mt-4 text-base leading-relaxed text-muted-foreground">{e.summary}</p>
               </div>
             </motion.div>
           ))}

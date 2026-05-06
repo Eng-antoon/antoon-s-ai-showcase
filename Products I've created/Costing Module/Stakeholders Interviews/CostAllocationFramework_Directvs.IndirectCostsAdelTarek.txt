@@ -1,0 +1,545 @@
+# **1. Introduction & Shift to Costing Focus**
+
+### **1.1. Context and Purpose of the Meeting**
+
+The meeting was initiated by Antoon with the primary objective of gathering precise financial logic to document the requirements for a new system. Antoon emphasized that he needs Adel Tarek’s specific expertise as the Finance Manager to explain the financial structure, noting that general explanations from others would not be sufficient. The goal is to create a documentation reference that accurately reflects the company's financial reality, which will serve as the foundation for the new system logic.
+
+### **1.2. The Strategic Shift: Profitability Analysis**
+
+Antoon explicitly stated that ILLA is currently undergoing a strategic shift for the upcoming period. The focus is moving heavily towards **Costing** and detailed financial analysis. The company aims to move away from general operational tracking to a more analytical approach that answers specific questions:
+
+- **Profit Sources:** Identifying exactly where the company is making money (Winning).
+- **Loss Sources:** Identifying exactly where the company is losing money.
+- **Cost Allocation:** Understanding clearly what ILLA is paying for and how those payments translate into business value.
+
+### **1.3. The Foundational Concepts: Direct vs. Indirect Costs**
+
+It was established that the core of this costing analysis revolves around distinguishing between **Direct Costs** and **Indirect Costs**.
+
+- Antoon mentioned that he had a preliminary discussion with "Amin," who introduced the concepts of Direct and Indirect costs per Business Unit.
+- However, Antoon requested Adel to explain the *exact difference* between these two types of costs specifically within the context of ILLA’s operations, as definitions can vary based on the nature of the business.
+- The example initially cited by Antoon to frame the discussion was that items like **Forklifts** and **Workers** are often considered Direct Costs (though Adel later clarified how this classification changes based on the business model).
+
+### **1.4. The Ultimate Technical Goal: Granular Tracking**
+
+The desired outcome of this new focus is to reach a level of data granularity where the system can track **"every single crumb"** (*every minute detail*) entering and leaving the company. The system must account for every expense and revenue stream with full calculation logic, ensuring that nothing is left untracked or unallocated. This level of detail is necessary to achieve the profitability analysis mentioned above.
+
+# **2. Defining Direct vs. Indirect Costs**
+
+### **2.1. The Core Philosophy: "Main Raw Materials"**
+
+Adel established the fundamental rule for identifying a **Direct Cost**. He defined it not just as an expense, but as the **"Main Raw Material"** (The Origin) of the business operation.
+
+- **The Rule of Existence:** A cost is Direct if the operation simply **cannot happen** without it. If this specific element is missing, the product cannot be produced, or the service cannot be executed.
+- **Impact on Productivity:** If a Direct Cost activity is not performed, it directly impacts productivity and prevents the product from emerging.
+
+In contrast, **Indirect Costs** were defined as expenses that:
+
+- **Aid Completion:** They help or facilitate the "completion of the operation."
+- **Support Role:** They serve the main operation but are not the specific thing being sold or the primary tool delivering the value.
+
+### **2.2. The "Nature of Business" Approach**
+
+Adel emphasized that you cannot classify a cost (like a warehouse or a worker) as Direct or Indirect in a vacuum. You must first look at the **Nature of the Business Line** or the specific service being provided.
+
+- The classification depends entirely on answering: *"What is the Main thing being offered in this specific business model?"*
+
+### **2.3. Detailed Example: The Distribution Business Model**
+
+Adel used the **Distribution** line as the primary case study to explain this distinction.
+
+**Context:** In Distribution, the company acts as a distributor selling a product.
+
+**A. Direct Costs (The "Mains" of Distribution):**
+
+1. **The Product (COGS):**
+    - Since the service is selling a product, the **Inventory** itself is the first level of Direct Cost.
+    - Adel referred to this as **CM1** (Contribution Margin 1).
+2. **The Sales Team:**
+    - In a Distribution model, the act of selling is a "Main" activity. Therefore, the Sales team is a **Direct Cost**.
+    - Without them, the core function (Distribution/Sales) does not happen.
+3. **Logistics (Delivery):**
+    - Since the value proposition includes getting the product to the client, the **Logistics Cost** is Direct.
+    - **The Truck:** The vehicle transporting the goods is Direct.
+    - **The Worker (Delegate/Mandoub):** The specific worker who carries the item and delivers it (the "Delegate") is Direct.
+
+*(Adel summarized: CM2 in Distribution consists of the Sales and Logistics costs).*
+
+**B. Indirect Costs (The "Supports" of Distribution):**
+
+1. **The Warehouse:**
+    - **Crucial Distinction:** In the Distribution model, Adel classified the **Warehouse** as **Indirect**.
+    - **Reasoning:** The client is buying the product, not the storage space. The warehouse helps the operation exist but is not the direct service being sold.
+2. **Operational Supplies:**
+    - Items like **Stretch Rolls** (used for wrapping) or packaging materials.
+    - While necessary, they are not the product itself, nor the primary delivery vehicle. They are supportive costs assisting the completion of the job.
+
+### **2.4. Summary of Logic Used**
+
+- **Direct:** Ask, "Is this the thing I am selling, or the person/machine directly delivering it?" (e.g., The Apple, The Truck, The Salesman).
+- **Indirect:** Ask, "Is this something housing or supporting the main activity?" (e.g., The Building/Warehouse, The Packaging Material).
+
+# **3. Cost Structure by Business Model**
+
+Adel Tarek emphasized that the classification of what is "Direct" and what is "Indirect" is not static. It shifts completely depending on the **Nature of the Business Line** (the specific service being sold to the client). He broke this down into three primary models, plus a mention of the 2PL model.
+
+---
+
+## **A. The Distribution Model**
+
+- **The Core Concept:** The company acts as a distributor. The primary value is **Selling** a product to a customer.
+- **Direct Costs ("The Main"):**
+    1. **COGS (Cost of Goods Sold):** The Item itself. Adel referred to this level as **CM1** (Contribution Margin 1).
+    2. **Sales Team:** Since the goal is to sell, the salespeople are a "Main" component.
+    3. **Logistics:** The process of getting the product to the client.
+        - **The Truck:** The vehicle transporting the goods.
+        - **The Delivery Agent (The Delegate/Mandoub):** The labor force specifically responsible for moving the item to the client.
+    - *(Adel noted that CM2 is calculated after deducting these Sales and Logistics costs).*
+- **Indirect Costs:**
+    1. **The Warehouse:** In Distribution, the warehouse is **Indirect**. The client is buying the product, not the storage space. The warehouse merely facilitates the operation.
+    2. **Consumables:** Stretch rolls, packaging, and other materials that aid the completion of the work but are not the product itself.
+
+---
+
+## **B. The 3PL (Third-Party Logistics) Model**
+
+- **The Core Concept:** The service being provided is **Warehousing** (Storage).
+- **Direct Costs ("The Main"):**
+    1. **The Warehouse:** Since the core revenue stream comes from providing space (storage), the Warehouse cost (Rent/Facility) becomes the primary **Direct Cost**.
+- **Indirect Costs:**
+    1. **MHE (Material Handling Equipment):** specifically **Forklifts**.
+        - *Adel’s Logic:* In this model, the Forklifts and other machinery "serve the Main" (which is the Warehouse). Therefore, they are classified as **Indirect Costs** supporting the facility.
+    2. **Logistics (Transportation):** Unless the contract is a full-package service, transportation is often secondary or separate from the core warehousing fee, placing it in the indirect or separate bucket depending on the specific contract scope (Cost Per Case is treated differently, see below).
+
+---
+
+## **C. The Cost Per Case (CPC) Model**
+
+- **The Core Concept:** The service being sold is **Delivery**. The client pays "Per Case" (per carton) delivered.
+- **The Validation/Conflict:**
+    - Adel mentioned there was a "fight" or a rigorous **validation process** regarding how to classify the Warehouse in this model.
+    - *The Question:* Is the Warehouse Direct or Indirect in CPC?
+- **The Decision:** The **Warehouse is Indirect**.
+- **The Logic:**
+    - Adel explained: "What is the Main? The Main is that I am **Delivering**."
+    - The core value is the act of delivery. Adel stated, "I could bring anyone else to take a warehouse from them," implying the storage location is replaceable, but the *service* sold is the movement of the carton.
+    - Therefore, the Warehouse supports the operation but is not the direct cost of the "Per Case" delivery fee.
+- **Direct Costs ("The Main"):**
+    1. **Logistics:** The Trucks.
+    2. **Labor:** The Delivery Agents (Delegates) and the specific workers handling the item for delivery (loading/unloading onto the truck).
+- **Indirect Costs:**
+    1. **The Warehouse:** It houses the goods but is not the service driver.
+    2. **Forklifts/MHE:** Supporting equipment.
+
+---
+
+## **D. The 2PL (Two-Party Logistics) Model**
+
+- **The Core Concept:** Described by Adel as "Store vs. Store." It is a pure rental model.
+- **Example:** **Fridal**.
+    - Adel explained: "Fridal takes a warehouse from us. They pay us rent for the warehouse."
+- **Cost Structure:**
+    - **Direct Cost:** The Rent paid by ILLA for the warehouse space.
+    - **Revenue:** The Rent received from the client (Fridal).
+- **Example:** **Zina**.
+    - Adel noted that for the client "Zina," ILLA does not invoice them directly (it is an internal arrangement), so it appears under "Other Operations Cost" (Cleaning, Stationery, Rent) rather than a direct revenue-generating 2PL project in the main view, but conceptually it fits the storage-focused structure.
+
+---
+
+### **Summary of the Shift in Logic**
+
+Adel highlighted the crucial pivot in logic between models:
+
+- **In 3PL:** The Warehouse is **Direct** (because you sell space).
+- **In Distribution & CPC:** The Warehouse is **Indirect** (because you sell a product or a delivery service, and the warehouse just supports that).
+
+# **4. Shared vs. Dedicated Costs (The "Mostorod" Example)**
+
+### **4.1. Defining the Concepts**
+
+Adel explained that costs are categorized into two main buckets based on how they serve the projects:
+
+- **Dedicated Costs:** Costs incurred for a resource that serves **one specific project or client** exclusively.
+    - *Example:* The **Fridal** warehouse. Fridal rents the space specifically for themselves.
+    - *Example:* The **Zina** warehouse. Dedicated to the client "Zina," where costs appear as "Other Operations Cost" (Cleaning, Stationery, Rent) because it is an internal project not billed via standard invoice.
+- **Shared Costs:** Costs incurred for a resource (like a Warehouse) that serves **multiple projects or clients** simultaneously. This creates an accounting challenge because a single invoice (e.g., Rent, Electricity) covers multiple revenue streams.
+
+### **4.2. The Primary Case Study: The "Mostorod" Warehouse**
+
+Adel used the **Mostorod** warehouse (and the adjacent warehouse) as the prime example of the **Shared Cost Model**.
+
+**The Scenario:**
+
+- The Mostorod warehouse houses operations for **two different types of projects** simultaneously:
+    1. **CPC (Cost Per Case) Clients:** Clients who pay per carton delivered.
+    2. **Distribution Clients:** Clients where ILLA buys and resells the product.
+
+**The Problem:**
+
+- Adel noted: *"I pay one rent, one electricity bill, and one water bill."*
+- You cannot treat the warehouse solely as a CPC cost or solely as a Distribution cost because it serves both.
+- Therefore, the Mostorod warehouse is classified as a **Shared Cost**.
+
+### **4.3. The Solution: Internal Billing (The "Front Door" to "ILLA" Logic)**
+
+To solve the complexity of splitting a single rent bill across different business models, Adel explained a specific internal workflow used at ILLA:
+
+**The Mechanism:**
+
+1. **Modeling as CPC/3PL:** Even though the warehouse serves Distribution, they model the warehouse cost as a **Cost Per Case (CPC)** or **3PL** entity.
+2. **Internal Invoicing:**
+    - An entity referred to as **"Front Door"** (or "ILLA" in the context of the provider) issues an internal invoice to the **"ILLA Distribution"** division.
+3. **The Shift in Service Definition:**
+    - Instead of "ILLA Distribution" paying rent directly, they are "buying a service" from the warehouse entity.
+    - Adel explained: *"I give you the Cost Per Case service... ILLA [Distribution] will put this cost under **Indirect**."*
+4. **Resulting Cost Structure:**
+    - For the Distribution unit, the **Direct Costs** remain the Trucks and Sales (as established in previous sections).
+    - The Warehouse cost enters their books as a **Service Fee** (Indirect), rather than a raw Rent expense.
+
+### **4.4. The "Handling" Pivot (Carton vs. Pallet)**
+
+Adel added a crucial detail regarding how the service is defined in this shared model:
+
+- **Standard CPC:** Usually involves delivering the item.
+- **Internal CPC:** Adel noted that for internal distribution, they might not need the "Delivery" part from the warehouse team, but only the **Handling**.
+- **The Transformation:** The model shifts from **Cost Per Case (Delivery)** to **3PL (Handling)** but at the **Carton Level** (instead of the Pallet Level).
+    - *Adel’s Quote:* *"It transforms from Cost Per Case... to 3PL but I take it at the Carton level, not the Pallet level."*
+
+### **4.5. The "FedEx" / 3PL Nuance (Project vs. Client Level)**
+
+Adel provided a deeper layer of complexity regarding Shared vs. Dedicated using a 3PL example (likening it to FedEx):
+
+- **Dedicated at the Project Level:** A warehouse might be purely for 3PL. In this sense, the warehouse is **Dedicated** to the "3PL Project."
+- **Shared at the Client Level:** Inside that warehouse, there are multiple clients renting space. Therefore, the cost is **Shared** among those clients.
+- **The Allocation Logic:**
+    - Adel explained that you must separate the costs based on the "share" of each client.
+    - *The Logic:* "What is the share of this project from this warehouse?"
+    - This requires breaking down the total shared cost (Rent, Utilities) and allocating it to specific clients to determine if a specific client is profitable.
+
+### **4.6. Summary of the "Mostorod" Rule**
+
+- **Mostorod** = **Shared Cost**.
+- It cannot be assigned to a single project directly.
+- It is handled by treating the Warehouse as a service provider that bills the internal Distribution team for "Handling/Service," thereby converting a shared Fixed Cost (Rent) into a Variable/Service Cost for the Distribution unit.
+
+# **5. Capacity Planning & Labor Cost Allocation**
+
+### **5.1. The Source of the Plan**
+
+Adel explained that the entire costing process begins with the **Capacity Plan** provided by **"Watany"** (likely the Demand Planning Manager).
+
+- **Structure:** The plan lists **Clients** against **Months** (Forecasting).
+- **Units of Measure:** It details the forecasted sales in **Cartons** (specifically for the Mostorod example).
+- **Conversions:** The plan also converts these carton figures into **Pallets** to calculate Inbound and Outbound requirements.
+
+### **5.2. The Core Formula: Converting Fixed Salaries to Unit Cost**
+
+Adel provided a specific mathematical example to explain how ILLA allocates the cost of a "Shared Workforce" (workers serving multiple clients in one warehouse) to a specific **Cost Per Carton**.
+
+**The Example Scenario:**
+
+- **Resource:** A shared warehouse team.
+- **Workforce:** 4 Workers.
+- **Total Salaries:** **20,000 EGP** (Total cost of the 4 workers).
+- **Clients:** 6 different clients sharing the warehouse.
+- **Volume Breakdown (Forecasted Cartons per Client):**
+    - Client 1: 20 cartons
+    - Client 2: 10 cartons
+    - Client 3: 30 cartons
+    - Client 4: 40 cartons
+    - Client 5: 25 cartons
+    - Client 6: 25 cartons
+- **Total Volume:** **150 Cartons**.
+
+**The Calculation Logic:**
+
+- You do not divide the salary by the number of clients (20,000 / 6) because volumes are unequal.
+- **The Formula:** Total Salaries (20,000) ÷ Total Volume (150).
+- **The Result:** This gives the **"Element Cost"** (The specific labor cost added to *each* carton).
+- **Conclusion:** If the result is (for example) 133 EGP per carton, then for a client with 20 cartons, the allocated labor cost is 20 * 133.
+
+### **5.3. Utilization and The "Empty Space" Problem**
+
+Adel and Antoon discussed the financial implications of unused capacity in the warehouse.
+
+**The Scenario:**
+
+- **Total Capacity:** 200 Cartons.
+- **Actual Forecast (Used):** 150 Cartons.
+- **Empty Space:** 50 Cartons.
+
+**The Financial Impact:**
+
+- **Labor (Variable):** Antoon noted that for the 50 empty spots, there is **zero labor cost** because no work is being done on them.
+- **Warehouse (Fixed):** However, Antoon noted (and Adel confirmed saying *"Exactly, from my pocket"*), the **Rent Cost** for those 50 empty spots still exists and must be paid regardless.
+- **The "Maximization" Goal:** The objective is to utilize the full 200 capacity to spread the fixed costs thinner, lowering the cost per unit.
+
+### **5.4. Scalability and Variable Labor**
+
+Adel addressed the question: *"What happens if volume increases from 150 to 200?"*
+
+- **The Threshold:** If the 4 workers are currently at their **Full Capacity** handling 150 cartons, increasing to 200 might require hiring a **5th worker**.
+- **Cost Implication:** Adding a 5th worker increases the Total Salaries numerator.
+- **Operational Efficiency:** The goal of the Operations team is to treat labor as a **Variable** cost.
+    - If volume decreases, the number of workers or shifts should decrease.
+    - If volume increases, they scale up.
+- **The Risk:** If volume drops (e.g., to 100 cartons) but the workforce remains at 4, the Cost Per Carton increases drastically, leading to inefficiency.
+
+### **5.5. Operational Inputs & KPIs**
+
+Adel listed the specific operational metrics (Inputs) that feed into this calculation and determine the cost efficiency:
+
+1. **Warehouse Throughput:** How much volume moves through.
+2. **Loading Time / Docking Time:**
+    - Adel emphasized this as a future **KPI**.
+    - *Logic:* Reducing "Loading Hours" means less labor time is required, which reduces the cost.
+3. **Truck Capacity:**
+    - Adel used the example of a door having a capacity of **400 cartons**.
+    - Calculations are based on these physical limits (Outlines of the Warehouse).
+
+### **5.6. The "Shared Cost" Conclusion**
+
+Adel concluded that in the **Shared Model** (like Mostorod), the costs (Workers + Warehouse) are pooled together. To generate a price for a specific client, you must take that client’s "Share" of the total cost based on their volume (Cartons) relative to the total facility throughput.
+
+## 5.7. Example for the Capacity Plan
+
+[FD 2026 Forecasted Cpapcity Plan - Mosord Forecast.csv](attachment:ababd6ef-5dc4-4d8e-8227-2bd73ee53196:FD_2026_Forecasted_Cpapcity_Plan_-_Mosord_Forecast.csv)
+
+![image.png](attachment:278ea0ca-5948-462d-8c76-908bfaca937d:image.png)
+
+# **6. Fixed vs. Variable Costs**
+
+### **6.1. Core Definitions**
+
+Adel explained that the final line of defining cost structure is distinguishing between what is Fixed and what is Variable.
+
+- **Fixed Costs:** Costs that are tied to a **Time-Bound Contract**. They do not change regardless of whether operations increase or decrease. They are constant expenses.
+- **Variable Costs:** Costs that **fluctuate** directly with the volume of operations. They increase when operations increase and decrease when operations decrease.
+
+---
+
+### **6.2. Detailed Classification of Expenses**
+
+Adel provided a specific item-by-item breakdown of how ILLA classifies these costs:
+
+### **A. Fixed Costs (The Constants)**
+
+1. **Warehouse Rent:**
+    - Adel stated this is the primary fixed cost. It is based on a contract with a specific duration. Whether the warehouse is full or empty, this rent must be paid.
+2. **The Warehouse Manager:**
+    - **The Nuance:** Adel posed the question: *"Is the Warehouse Manager fixed or variable?"*
+    - **The Verdict:** **Fixed**.
+    - **The Logic:** The Manager is present regardless of the volume. He is a necessary overhead for the facility to exist.
+    - *Caveat:* Adel noted that he *could* become variable only if the scale changes drastically (e.g., opening multiple new warehouses), but for the scope of a single warehouse, he is Fixed because *"He will never change with this warehouse."*
+
+### **B. Variable Costs (The Fluctuating)**
+
+1. **Consumables:**
+    - **Stretch Rolls:** Explicitly classified as Variable. If you wrap more pallets, you use more rolls.
+    - **Stationery & Printing:** Variable. Increases with the number of orders/paperwork processed.
+    - **Cleaning Supplies:** Variable.
+2. **Labor (Workers):**
+    - General workers are treated as Variable because their numbers (or shifts) should scale with the volume of work.
+3. **Supervisors:**
+    - Adel noted these can be Variable. If operations grow significantly, you may need more supervisors to manage the expanded teams.
+
+---
+
+### **6.3. The "Minimum Fixed" Rule (The Hybrid Logic)**
+
+Adel introduced a critical logical layer regarding costs that seem Variable but have a Fixed component. This is essential for the system logic.
+
+- **The Concept:** Even for Variable items (like Labor or Forklifts), you cannot start from zero.
+- **The Rule:** There is a **"Minimum Fixed Cost"** required to simply open the doors and be ready to operate.
+    - *Example (Forklifts):* You cannot start a warehouse with zero forklifts waiting for the first box. You need a minimum set (e.g., 2 forklifts) just to be operational. This baseline is treated as Fixed.
+    - *Example (Labor):* You need a minimum team to set up.
+- **The Variable Part:** Any cost incurred *above* this minimum baseline (due to increased volume) is the true Variable cost.
+    - *Adel’s Logic:* "After the minimum... it increases with the increase of operations."
+
+---
+
+### **6.4. The Impact of Utilization on Fixed Costs**
+
+Adel explained the financial risk associated with Fixed Costs:
+
+- **The "Holidays" Example:** During holidays (when operations might stop or slow down), Fixed Costs (Rent, Manager Salary) are still paid. This represents a loss for that specific day/period because no revenue is covering it.
+- **The Goal:** To utilize every hour of the day. Every hour of operation helps "cover" the Fixed Cost.
+- **Cost Per Unit Implication:**
+    - If you treat a cost as Fixed (like the Warehouse Manager), his cost is spread over the total units handled.
+    - If volume drops, his cost-per-unit rises.
+    - If volume rises, his cost-per-unit drops.
+
+### **6.5. Shared vs. Dedicated Impact on Fixity**
+
+Adel linked this back to the Business Models:
+
+- **In 2PL (e.g., Fridal):** The Rent is Fixed for ILLA (we pay the landlord), but it is also Fixed Revenue from the client (they pay us rent).
+- **In Shared Models (Mostorod):** The Rent is Fixed for ILLA, but it must be converted into a Variable cost for the internal distribution team (charged per carton/handling) to ensure each project pays its fair share of that fixed burden.
+
+# **7. The Procurement Cycle (Target Process vs. Current Situation)**
+
+Adel provided a detailed breakdown of how assets (specifically using the example of a **Forklift**) should be purchased versus how they are sometimes purchased in reality. This distinction is critical for the system design to enforce the "Target" process.
+
+---
+
+## **A. The Target Process (The "Correct" Cycle)**
+
+This is the workflow that the new system must enforce. It involves a system of checks and balances between Operations, Demand Planning, Purchasing, and Finance.
+
+### **Step 1: The Request (Operations)**
+
+- **Trigger:** The Operations team determines a need.
+    - *Example:* An Operations Manager says, *"I am tired, I need an extra Forklift."*
+- **Action:** Operations submits a request to the **Purchasing Department**.
+
+### **Step 2: The First Gatekeeper (Purchasing)**
+
+- **Action:** Purchasing receives the request.
+- **Validation:** Purchasing does **not** execute immediately. Instead, they ask: *"Where did you get this request from?"*
+- **Redirection:** Purchasing directs Operations to **Demand Planning** to validate the need first.
+
+### **Step 3: The Brain (Demand Planning)**
+
+- **Role:** This is the most critical step for validation.
+    - *Antoon’s Question:* *"Does Demand check if we have money?"*
+    - *Adel’s Answer:* **No.** Demand Planning does not look at money/budget. They look at **Items** and **Operational Necessity**.
+- **Validation Logic:**
+    1. They investigate *"every single crumb"* (every detail).
+    2. They review the **Capacity Plan**.
+    3. They look at the "Ground Reality" (floor operations).
+    4. They determine if the asset is actually needed or if the request is due to inefficiency.
+- **Negotiation:** Demand Planning and Operations "speak the same language." They negotiate the need. If Demand agrees, they modify the official plan to include the new asset.
+
+### **Step 4: Execution (Purchasing & Finance)**
+
+- **Action:** Once Demand validates the need, they inform the Supplier/Account Manager.
+- **PO Issuance:** Purchasing issues a **Purchase Order (PO)** to Finance, stating: *"Note, I am going to increase/buy 1, 2, 3, 4."*
+- **Financial Approval:**
+    - The **Finance Manager** reviews the PO.
+    - **The Rule:** Finance has already set a **Budget/Plan** with Demand Planning.
+    - **Within Limit:** If the request is within the pre-set limit/cap, it proceeds automatically.
+    - **Exceeding Limit:** If the request breaks the budget, Demand must provide a specific **Reason**.
+        - *Valid Reasons:* "We have an operational crisis," "There was a bug/error in the original forecast," or "We are invoicing the client for extra revenue (Revenue-generating asset)."
+
+### **Step 5: The Commercial Variant (Client-Driven)**
+
+- Sometimes the request originates from **Commercial/Sales** rather than Operations.
+- *Scenario:* A client specifically requests a dedicated forklift or a change in service style.
+- *Workflow:* Commercial talks to Demand -> Demand informs Operations ("You are getting an extra forklift") -> Operations coordinates with Purchasing -> Purchasing goes to Finance.
+
+---
+
+## **B. The Current Situation (The "Wrong" Cycle)**
+
+Adel explained that in the absence of a strict system, the process often shortcuts the validation steps, leading to financial blind spots.
+
+### **The "Direct Call" Shortcut**
+
+- **The Action:** Operations bypasses Demand, Purchasing, and Finance.
+- **The Method:** The Operations Manager picks up the phone and calls the Supplier directly.
+- **The Dialogue:** *"Hey [Supplier Name], bring me a fork[lift]. No, I'm not joking, bring a fork."*
+- **The Result:** The asset is delivered to the warehouse immediately without financial approval.
+
+### **The "Surprise" Discovery**
+
+- **Timing:** Finance (Adel) often discovers this **1 to 1.5 months later**.
+- **The Scenario:**
+    - Adel is sitting in a meeting presenting financial data.
+    - Adel says: *"We have **4** Forklifts."*
+    - Operations interrupts: *"You are dreaming/high (bt-hayyes), we have **10**."*
+- **The Impact:**
+    - Finance was unaware of the liability.
+    - The asset is already on the ground and operating.
+    - Payment terms are often "Deferred/Credit," which explains why the invoice didn't trigger an alarm immediately.
+
+### **Conclusion for System Design**
+
+Adel noted that while these "slip-ups" used to happen frequently, they are becoming more controlled. The new system must **force** the "Target Process" (Step 1-4) to prevent the "Direct Call" scenario.
+
+# **8. Financial Data & System Review (P&L and Division Accounts)**
+
+### **8.1. The "Division Account" System**
+
+Adel introduced a specific feature within ILLA’s accounting system called the **"Division Account."**
+
+- **Purpose:** This is the mechanism used to "house" or assign specific costs to a specific project.
+- **Goal:** It allows the Finance team to see the Profit & Loss (P&L) for individual projects (e.g., "Mostorod Al Tayseer", "Ceva") rather than just a general company-wide view.
+- **Source of Data:** Adel confirmed that the figures presented come directly from the **Accounting System (Manager)** using "Actuals" (real operational numbers), covering all data sources (including systems like Lucas and Winfer).
+
+---
+
+### **8.2. Case Study A: The "Zina" Project (Internal/Unbilled)**
+
+Adel showed the data for the client **"Zina"** to demonstrate how an internal project looks in the system.
+
+- **Revenue Status:** Adel pointed out that this view shows **Zero Revenue** (or is not invoiced directly).
+    - *Reason:* "Zina" is billed through the **Distribution** arm, not the "Front Door" logistics arm. Therefore, in this specific Logistics P&L view, it appears as a cost center only.
+- **Cost Breakdown (The "Other Operations Cost"):**
+    
+    Since there is no direct revenue matching, the P&L lists the following specific expenses incurred for Zina:
+    
+    1. **Cleaning Supplies:** Costs for keeping the warehouse clean.
+    2. **Stationery and Printing:** Paperwork and administrative consumables.
+    3. **Total Warehouse Cost:** This includes the **Warehouse Rent** itself.
+
+---
+
+### **8.3. Case Study B: The "Mostorod" Project (2PL/Shared)**
+
+Adel moved to the **"Mostorod Al Tayseer"** project to show a complete P&L with both Costs and Revenues.
+
+**A. The Costs (Specific Numbers Mentioned):**
+
+Adel broke down the "Total Cost" into specific line items:
+
+1. **Warehouse Rent:**
+    - **Specific Figure:** **381,150 EGP**.
+    - Adel emphasized this is the base rent paid for the facility.
+2. **Equipment Rental Cost:**
+    - This covers **Machinery/Forklifts**.
+    - *Volatility Example:* Adel pointed out that in **Month 11**, the cost was **15,000 EGP** (renting a forklift). In **Month 12**, the cost was **Zero** (no forklift was rented/taken). This demonstrates the variable nature of equipment rental.
+3. **Other Operational Cost:**
+    - **Operations Maintenance.**
+    - **Stretch Rolls:** (Consumables).
+    - **Traveling & Transportation.**
+    - **Utilities.**
+
+**B. The Revenues:**
+
+Adel explained that the revenue from Mostorod comes from two specific sources:
+
+1. **3PL Stored Pallet:** Revenue generated purely from providing the storage space (the footprint).
+2. **Handling:** Revenue generated from the *activity*—cleaning, organizing, taking a pallet out, or putting a pallet in. Every movement generates revenue.
+
+---
+
+### **8.4. Case Study C: The "Fridal" Project (Dedicated 2PL)**
+
+Adel described the **2PL (Two-Party Logistics)** model using **"Fridal"** as the example.
+
+- **The Model:** "Warehouse vs. Warehouse."
+- **Logic:**
+    - Fridal rents a specific warehouse from ILLA.
+    - ILLA pays the landlord (Direct Cost).
+    - Fridal pays ILLA rent (Revenue).
+- **Net Profit:** The difference between the rent collected and the rent paid.
+
+---
+
+### **8.5. Financial Progress & Profitability**
+
+Adel highlighted the overall performance improvement in the 3PL/Logistics sector, showing specific Net Profit figures (Revenue minus Cost):
+
+- **Month X Profit:** **759,000 EGP**.
+- **Month Y Profit:** **535,000 EGP**.
+- *Adel’s Comment:* He described this as "Respectable Progress," noting that they used to lose money in this sector, but are now consistently profitable.
+
+### **8.6. Summary of the P&L Structure**
+
+Adel summarized the formula used in the system review:
+
+> Net Profit = Total Revenues - (Total Direct Cost + Total Indirect Cost)
+> 
+- **Revenues:** Storage fees + Handling fees.
+- **Direct Cost:** Rent (in 2PL), Equipment, Labor.
+- **Indirect Cost:** Shared overheads allocated via the Division Account.
