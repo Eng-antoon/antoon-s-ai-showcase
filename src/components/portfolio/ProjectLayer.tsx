@@ -1,0 +1,142 @@
+import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
+import { useRef } from "react";
+import type { Project } from "@/data/projects";
+
+function useStage(scrollYProgress: MotionValue<number>, start: number, end: number) {
+  return {
+    opacity: useTransform(scrollYProgress, [start, (start + end) / 2], [0, 1]),
+    y: useTransform(scrollYProgress, [start, end], [40, 0]),
+  };
+}
+
+export function ProjectLayer({ project, even }: { project: Project; even: boolean }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+
+  const imgY = useTransform(scrollYProgress, [0, 1], [-80, 80]);
+  const imgScale = useTransform(scrollYProgress, [0, 0.5, 1], [1.1, 1, 1.05]);
+  const stickyOpacity = useTransform(scrollYProgress, [0, 0.1, 0.85, 1], [0, 1, 1, 0]);
+
+  const s1 = useStage(scrollYProgress, 0.18, 0.32);
+  const s2 = useStage(scrollYProgress, 0.34, 0.48);
+  const s3 = useStage(scrollYProgress, 0.50, 0.62);
+  const s4 = useStage(scrollYProgress, 0.64, 0.78);
+
+  const accent = project.accent === "cyan" ? "var(--cyan)" : "var(--violet)";
+
+  return (
+    <section ref={ref} className="relative" style={{ minHeight: "200vh" }}>
+      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+        {/* image side */}
+        <motion.div
+          style={{ opacity: stickyOpacity }}
+          className={`absolute inset-y-0 hidden md:block ${even ? "right-0" : "left-0"} w-1/2`}
+        >
+          <motion.div style={{ y: imgY, scale: imgScale }} className="relative h-full w-full">
+            <img src={project.image} alt={project.name} className="h-full w-full object-cover" loading="lazy" />
+            <div
+              className="absolute inset-0"
+              style={{
+                background: `linear-gradient(${
+                  even ? "to right" : "to left"
+                }, var(--background), transparent 60%)`,
+              }}
+            />
+            <div
+              className="absolute inset-0 mix-blend-overlay opacity-40"
+              style={{ background: `radial-gradient(60% 60% at 50% 50%, ${accent}, transparent 70%)` }}
+            />
+          </motion.div>
+        </motion.div>
+
+        {/* mobile background image */}
+        <motion.div style={{ opacity: stickyOpacity }} className="absolute inset-0 md:hidden">
+          <img src={project.image} alt="" className="h-full w-full object-cover opacity-30" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
+        </motion.div>
+
+        <motion.div
+          style={{ opacity: stickyOpacity }}
+          className={`relative z-10 mx-auto flex w-full max-w-7xl px-6 ${
+            even ? "md:justify-start" : "md:justify-end"
+          }`}
+        >
+          <div className="w-full md:w-1/2 md:px-8">
+            <motion.div
+              style={s1}
+              className="mb-6 flex items-center gap-4"
+            >
+              <span
+                className="font-mono text-sm tracking-widest"
+                style={{ color: accent }}
+              >
+                {project.index}
+              </span>
+              <span className="h-px flex-1 bg-border" />
+              <span className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
+                {project.domain}
+              </span>
+            </motion.div>
+
+            <motion.h3
+              style={s1}
+              className="text-4xl font-semibold tracking-tight md:text-6xl"
+            >
+              {project.name}
+            </motion.h3>
+            <motion.p
+              style={s1}
+              className="mt-3 text-lg text-muted-foreground md:text-xl"
+            >
+              {project.tagline}
+            </motion.p>
+
+            <motion.div style={s2} className="mt-10">
+              <p className="mb-2 text-xs uppercase tracking-[0.25em]" style={{ color: accent }}>
+                Context
+              </p>
+              <p className="text-base leading-relaxed text-muted-foreground">{project.context}</p>
+            </motion.div>
+
+            <motion.div style={s3} className="mt-8">
+              <p className="mb-2 text-xs uppercase tracking-[0.25em]" style={{ color: accent }}>
+                My role
+              </p>
+              <p className="text-base leading-relaxed text-muted-foreground">{project.role}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {project.stack.map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-border/60 bg-card/50 px-3 py-1 text-xs text-muted-foreground backdrop-blur"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div style={s4} className="mt-8">
+              <p className="mb-3 text-xs uppercase tracking-[0.25em]" style={{ color: accent }}>
+                Impact
+              </p>
+              <ul className="space-y-2">
+                {project.impact.map((i) => (
+                  <li key={i} className="flex gap-3 text-sm text-foreground/90">
+                    <span
+                      className="mt-2 h-1 w-1 shrink-0 rounded-full"
+                      style={{ background: accent }}
+                    />
+                    {i}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
