@@ -5,7 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
   --radius-sm: calc(var(--radius) - 4px);
@@ -40,7 +41,7 @@
 :root {
   --radius: 0.875rem;
   /* Premium minimal dark — single source of truth */
-  --background: oklch(0.13 0.02 260);
+  --background: #080f1e;
   --foreground: oklch(0.97 0.01 250);
 
   --card: oklch(0.17 0.02 260);
@@ -133,6 +134,24 @@
 }
 .ring-grad {
   background: conic-gradient(from 0deg, var(--cyan), var(--violet), var(--cyan));
+}
+
+.story-vignette {
+  background:
+    linear-gradient(180deg, rgba(8, 15, 30, 0.08), rgba(8, 15, 30, 0.18)),
+    radial-gradient(circle at 70% 46%, transparent 18%, rgba(8, 15, 30, 0.2) 72%);
+}
+
+@media (max-width: 720px) {
+  .story-vignette {
+    background: linear-gradient(
+      180deg,
+      rgba(8, 15, 30, 0.06) 0%,
+      rgba(8, 15, 30, 0.1) 48%,
+      rgba(8, 15, 30, 0.88) 83%,
+      #080f1e 100%
+    );
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

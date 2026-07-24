@@ -8,13 +8,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Antoon Kamel Ibrahim — AI Technical Product Manager building logistics, finance, sales, workforce and consumer AI products in Cairo and remote.",
+          "Antoon Kamel is an AI Technical Product Manager turning complex logistics and field operations into measurable product systems.",
       },
       { property: "og:title", content: "Antoon Kamel — AI Technical Product Manager" },
       {
         property: "og:description",
         content:
-          "Ten shipped products across logistics, marketplaces, finance, sales, workforce operations, AI agents and consumer AI.",
+          "A story-led portfolio of measurable product impact across field sales, logistics, finance, and autonomous AI operations.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
       },
     ],
   }),
